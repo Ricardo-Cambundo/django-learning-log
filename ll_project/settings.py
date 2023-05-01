@@ -135,4 +135,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'learning_logs:index'
 LOGOUT_REDIRECT_URL = 'learning_logs:index'
 
-CSRF_TRUSTED_ORIGINS = ['https://cmbdlog.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://cmbdlog.up.railway.app/', '*']
